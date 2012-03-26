@@ -25,20 +25,20 @@
 # Create one or more configuration files in the following format:
 #
 # [database]
-# xbmc_db_host: localhost
-# xbmc_db_user: xbmc
-# xbmc_db_passwd: xbmc
-# xbmc_db_db: xbmc_music18
+# xbmc_db_host: localhost		#xbmc mysql database
+# xbmc_db_user: xbmc			#database user
+# xbmc_db_passwd: xbmc			#database password
+# xbmc_db_db: xbmc_music18		#xbmc music database
 #
 # [from]
-# host: htpc
-# xbmc_port: 80
-# fb2k_port: 8888
+# host: htpc					#host to swap from
+# xbmc_port: 80					#xbmc port
+# fb2k_port: 8888				#fb2k port
 #
 # [to]
-# host: office
-# xbmc_port: 80
-# fb2k_port: 8888
+# host: office					#host to swap to
+# xbmc_port: 80					#xbmc port
+# fb2k_port: 8888				#fb2k port
 #
 #
 # xbmc_port and fb2k_port are optional, but each host should have at least one or the other. If both xbmc and fb2k ports are defined and 
