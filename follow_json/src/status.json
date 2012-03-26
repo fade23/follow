@@ -1,0 +1,26 @@
+{
+	"isPlaying": "[IS_PLAYING]",
+	"isPaused": "[IS_PAUSED]",
+	"volume": "[VOLUME]",
+	"order": "[PLAYBACK_ORDER]",
+	"currentItem": 
+	{
+		"totalTime": "[ITEM_PLAYING_LEN]",
+		"currentTime": "[ITEM_PLAYING_POS]",
+		"index": "[PLAYLIST_ITEM_PLAYING]",
+		"albumArt": "[ALBUMART]",
+		"[HELPER1]"
+	},
+	"playlist":
+	{
+		"pageIndex": "[PLAYLIST_PAGE]",
+		"totalPages": "[PLAYLIST_PAGES_COUNT]",
+		"itemsPerPage": "[PLAYLIST_ITEMS_PER_PAGE]",
+		"totalItems": "[PLAYLIST_ITEMS_COUNT]" 
+	},
+	"playlists":
+	{
+		"activeIndex": "[PLAYLIST_ACTIVE]",
+		"playingIndex": "[PLAYLIST_PLAYING]" 
+	}
+}

@@ -1,0 +1,5 @@
+[foo_httpcontrol]
+url=/
+playlist_row={ "artist": "$replace(%artist%,\,\\,",\")", "album": "$replace(%album%,\,\\,",\")", "title": "$replace(%title%,\,\\,",\")", "length": "%length_seconds%", "rating": "%rating%", "date": "%date%" }
+
+helper1="artist": "$replace(%artist%,\,\\,",\")", "album": "$replace(%album%,\,\\,",\")", "title": "$replace(%title%,\,\\,",\")"
