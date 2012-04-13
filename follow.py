@@ -197,6 +197,10 @@ def stop_album_xbmc(from_xbmc_url):
 	title = items['title']
 	album = items['album']
 	track = items['track']
+	
+	if track > 65536:
+		track = track - 65536
+	
 	artist = items['artist']
 	songid = items['id']
 	albumid = items['albumid']
